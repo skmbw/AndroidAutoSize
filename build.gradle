@@ -2,8 +2,11 @@
 
 buildscript {
     repositories {
+        maven{ url 'http://maven.aliyun.com/repository/google'}
+        maven{ url 'http://maven.aliyun.com/repository/grade-plugin'}
+        maven{ url 'http://maven.aliyun.com/repository/jcenter'}
+        maven { url "https://jitpack.io" }
         google()
-        jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.3'
@@ -15,8 +18,11 @@ buildscript {
 
 allprojects {
     repositories {
+        maven{ url 'http://maven.aliyun.com/repository/google'}
+        maven{ url 'http://maven.aliyun.com/repository/grade-plugin'}
+        maven{ url 'http://maven.aliyun.com/repository/jcenter'}
+        maven { url "https://jitpack.io" }
         google()
-        jcenter()
     }
 }
 
